@@ -20,12 +20,50 @@ extract($_POST);
 <html>
 <head>
     <title>Paliari</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css"/>
 </head>
 
 <body>
+<nav class="navbar navbar-default" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://paliari.url.ph">Paliari</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li><a href="http://paliari.url.ph/bd/social/social.html">Social</a></li>
+            <li><a onclick="alert('Desculpe mas esta funcao ainda nao foi desenvolvida')" href="#">Fale conosco</a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Acesse <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="http://paliari.url.ph/bd/calculadora/calculadora.html">Calculadora</a></li>
+                    <li><a href="http://paliari.url.ph/bd/calculos_media/index.php">Calculos de media</a></li>
+                    <li><a href="http://paliari.url.ph/bd/mensagens.php">Mensgens</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://paliari.url.ph">Voltar</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+</nav>
+
 <div class="container">
     <br>
     Grafico de notas:
