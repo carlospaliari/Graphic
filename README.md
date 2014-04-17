@@ -34,4 +34,4 @@ depois de um echo no grafico para o local onde deseja colocar.
 
     ?>
 
-exemplo --> http://paliari.url.ph
+exemplo --> http://paliari.url.ph/bd/calculos_media/index.php
