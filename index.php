@@ -19,7 +19,7 @@ extract($_POST);
 
 <html>
 <head>
-    <title>Paliari</title>
+    <title> Graficos</title>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
@@ -53,8 +53,7 @@ extract($_POST);
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Acesse <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li><a href="http://paliari.url.ph/bd/calculadora/calculadora.html">Calculadora</a></li>
-                    <li><a href="http://paliari.url.ph/bd/calculos_media/index.php">Calculos de media</a></li>
-                    <li><a href="http://paliari.url.ph/bd/mensagens.php">Mensgens</a></li>
+                    <li><a href="http://paliari.url.ph/bd/index.php">Mensgens</a></li>
                     <li class="divider"></li>
                     <li><a href="http://paliari.url.ph">Voltar</a></li>
                 </ul>
